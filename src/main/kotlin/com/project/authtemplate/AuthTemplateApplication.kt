@@ -8,4 +8,5 @@ class AuthTemplateApplication
 
 fun main(args: Array<String>) {
     runApplication<AuthTemplateApplication>(*args)
+
 }
