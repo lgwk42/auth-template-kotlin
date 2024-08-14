@@ -3,15 +3,15 @@ server:
 
 spring:
   datasource:
-    url: ${secrets.RDS_PATH}
-    username: ${secrets.DB_USERNAME}
-    password: ${secrets.DB_PASSWORD}
+    url: jdbc:mysql://localhost:3306/[schema]?serverTimezone=Asia/Seoul&characterEncoding=UTF-8
+    username: [db username]
+    password: [db password]
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   security:
     user:
-      name: ${secrets.SECURITY_USER_NAME}
-      password: ${secrets.SECURITY_USER_PASSWORD}
+      name: [name]
+      password: [password]
 
   jpa:
     database: mysql
@@ -26,6 +26,6 @@ spring:
 
 application:
   jwt:
-    secretKey: ${secrets.JWT_SECRET_KEY}
-    expiration: 172800000    # 48??
-    refreshExpiration: 604800000   # 7?
+    secretKey: [key]
+    expiration: 172800000    # 48시간
+    refreshExpiration: 604800000   # 7일
