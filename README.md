@@ -66,3 +66,7 @@ response :
   }
 }
 ```
+
+### 주의사항 ⚠️
+DB url 및 username, password는 비워져 있습니다.
+또한 jwt secret key 도 비워져 잌으니 사용자에 맞는 값을 넣어서 사용해 주세요.
