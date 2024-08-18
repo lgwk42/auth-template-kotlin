@@ -9,7 +9,7 @@ Kotlin + Spring Boot 를 사용하여 제작되었습니다. fork 후 pull 하�
 
 ### API
 #### 1. sign up
-end-point : auth/sign-up <br/>
+end-point : /auth/sign-up <br/>
 request-body : 
 ```json
 {
@@ -27,7 +27,7 @@ response :
 ```
 
 #### 2. sign in
-end-point : auth/sign-in <br/>
+end-point : /auth/sign-in <br/>
 request-body : 
 ```json
 {
@@ -48,7 +48,7 @@ response :
 ```
 
 #### 3. refresh
-end-point : auth/refresh <br/>
+end-point : /auth/refresh <br/>
 request-body : 
 ```json
 {
