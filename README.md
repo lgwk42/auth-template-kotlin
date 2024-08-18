@@ -3,7 +3,6 @@ Kotlin + Spring Boot 를 사용하여 제작되었습니다. fork 후 pull 하�
 
 ### 주 사용 라이브러리
 - JPA
-- Lombok
 - MySQL Driver
 - Spring Security
 - JWT (0.12.5)
