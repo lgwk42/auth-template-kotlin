@@ -1,13 +1,13 @@
 ## Auth template
 Kotlin + Spring Boot 를 사용하여 제작되었습니다. fork 후 pull 하여 자유롭게 사용하실 수 있습니다.
 
-### 주 사용 라이브러리
+### 📦 주 사용 라이브러리
 - JPA
 - MySQL Driver
 - Spring Security
 - JWT (0.12.5)
 
-### API
+### 📄 API
 #### 1. sign up
 end-point : /auth/sign-up <br/>
 request-body : 
