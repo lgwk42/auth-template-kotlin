@@ -1,5 +1,5 @@
 ## Auth template
-Kotlin + Spring Boot 를 사용하여 제작되었습니다. fork 후 pull 하여 자유롭게 사용하실 수 있습니다.
+Kotlin + Spring Boot 를 사용하여 제작되었습니다. use this template를 클릭 후 레파를 생성하여 사용하실 수 있습니다. 문의 사항은 개인 연락 바랍니다.
 
 ### 📦 주 사용 라이브러리
 - JPA
